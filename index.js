@@ -11,7 +11,7 @@ const botClient = new BotClient({
 // Configuration
 const sourceChannels = ['551938432201654272', '617297960035811328'];
 const targetChannelId = '1404251586653458454';
-const targetKeywords = ['rob_pokemon', 'x94e', 'horselover39430'];
+const targetKeywords = ['yourname', 'yourname', 'yourname'];
 const allowBotMessages = true;
 
 // Emoji mapping: Map original emoji IDs to new emoji IDs for each difficulty
@@ -109,4 +109,5 @@ console.log('BOT_TOKEN:', process.env.BOT_TOKEN ? 'Loaded' : 'Missing');
 
 // Login both clients
 userClient.login(process.env.USER_TOKEN).catch(error => console.error(`❌ User client login failed: ${error.message}`));
+
 botClient.login(process.env.BOT_TOKEN).catch(error => console.error(`❌ Bot client login failed: ${error.message}`));
