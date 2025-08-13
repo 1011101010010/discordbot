@@ -20,6 +20,7 @@ this one is might not be necessary since its only used for the node.js stuff
 1. Set-ExecutionPolicy Bypass -Scope Process -Force 
 
 this one just tells the PowerShell where to execute the cmd
+
 2. cd C:whereyourfolderis\discord-bot
 
 this activates the file
