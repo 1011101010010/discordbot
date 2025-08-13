@@ -10,7 +10,7 @@ const botClient = new BotClient({
 
 // Configuration
 const sourceChannels = ['551938432201654272', '617297960035811328'];
-const targetChannelId = '1404251586653458454';
+const targetChannelId = 'thechannelidyouwantthemessagestogoin';
 const targetKeywords = ['yourname', 'yourname', 'yourname'];
 const allowBotMessages = true;
 
@@ -111,4 +111,5 @@ console.log('BOT_TOKEN:', process.env.BOT_TOKEN ? 'Loaded' : 'Missing');
 userClient.login(process.env.USER_TOKEN).catch(error => console.error(`❌ User client login failed: ${error.message}`));
 
 botClient.login(process.env.BOT_TOKEN).catch(error => console.error(`❌ Bot client login failed: ${error.message}`));
+
 
