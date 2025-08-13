@@ -24,6 +24,7 @@ this one just tells the PowerShell where to execute the cmd
 2. cd C:whereyourfolderis\discord-bot
 
 this activates the file
+
 3. node index.js
 
 
