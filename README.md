@@ -4,14 +4,16 @@
 
 3. download this too: https://nodejs.org/fr/download
 
-4. add an .env file with the information BOT_TOKEN=(the bot token) and USER_TOKEN=(the user token)
+4. in the .env file with the information BOT_TOKEN=(the bot token) and USER_TOKEN=(the user token)
 
-to get the bot token, just copy the link bla bla
+to get the bot token, make an application, go to Bot and just copy the link ( https://discord.com/developers/applications)
+
+USE A BURNER ACCOUNT, AS THIS MIGHT BE AGAINST DISCORD'S TOS 
 to get the user token, follow this tutorial: https://www.youtube.com/watch?v=LnBnm_tZlyU
 
 5. change the usernames in the index.js that says yourname to your username (not display name)
 
-6. to get the emojis, make copies of the emojis from the discord server or just use custom ones, and copy they id and replace them in the index.js place that said youremojiid
+6. to get the emojis, make copies of the emojis from the discord server (vencord makes them easily) or just use custom ones, and copy they id and replace them in the index.js place that said youremojiid
 
 7. put the channel id you want the bot to type in
 
