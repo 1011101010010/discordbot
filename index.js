@@ -16,17 +16,17 @@ const allowBotMessages = true;
 
 // Emoji mapping: Map original emoji IDs to new emoji IDs for each difficulty
 const emojiMap = {
-  '551933473481424897': '<:Easy:1404275705977503877>',
-  '551933473498333215': '<:Medium:1404275730640011266>',
-  '551933473695465472': '<:Hard:1404275751808798730>',
-  '788672082724388874': '<:Catastrophic:1404276179778801767>',
-  '1216902525928738816': '<:Difficult:1404275772809678928>',
-  '1216902664428720158': '<:Challenging:1404275830883876994>',
-  '739816885696200764': '<:Intense:1404275851700473947>',
-  '739817189959532645': '<:Remorseless:1404275804954955896>',
-  '551933473695203372': '<:Insane:1404276097499005011>',
-  '551933473582088219': '<:Extreme:1404276115295568023>',
-  '551933473657585665': '<:Terrifying:1404276146350194788>',
+  '551933473481424897': '<:Easy:youremojiid>',
+  '551933473498333215': '<:Medium:youremojiid>',
+  '551933473695465472': '<:Hard:youremojiid>',
+  '788672082724388874': '<:Catastrophic:youremojiid>',
+  '1216902525928738816': '<:Difficult:youremojiid>',
+  '1216902664428720158': '<:Challenging:youremojiid>',
+  '739816885696200764': '<:Intense:youremojiid>',
+  '739817189959532645': '<:Remorseless:youremojiid>',
+  '551933473695203372': '<:Insane:youremojiid>',
+  '551933473582088219': '<:Extreme:youremojiid>',
+  '551933473657585665': '<:Terrifying:youremojiid>',
 };
 
 // Function to replace original emoji IDs with new emojis
@@ -111,3 +111,4 @@ console.log('BOT_TOKEN:', process.env.BOT_TOKEN ? 'Loaded' : 'Missing');
 userClient.login(process.env.USER_TOKEN).catch(error => console.error(`❌ User client login failed: ${error.message}`));
 
 botClient.login(process.env.BOT_TOKEN).catch(error => console.error(`❌ Bot client login failed: ${error.message}`));
+
