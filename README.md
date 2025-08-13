@@ -13,7 +13,11 @@ to get the user token, follow this tutorial: https://www.youtube.com/watch?v=LnB
 
 6. to get the emojis, make copies of the emojis from the discord server or just use custom ones, and copy they id and replace them in the index.js place that said youremojiid
 
-7. To run the actual code, you will need to use a cloud vm or your local machine, to do so: run PowerShell and do these inputs
+7. put the channel id you want the bot to type in
+
+8. invite the actual bot with an invite link with admin perms (or less if you know what the bot does) to your server
+
+9. To run the actual code, you will need to use a cloud vm or your local machine, to do so: run PowerShell and do these inputs
 
 
 this one is might not be necessary since its only used for the node.js stuff
