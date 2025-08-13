@@ -1,6 +1,6 @@
 1.Make a folder named: discord-bot
 
-2.Download the files from GitHub: https://github.com/1011101010010/discordbot
+2.Download the files from GitHub: https://github.com/1011101010010/etohtrackerbot
 
 3. download this too: https://nodejs.org/fr/download
 
